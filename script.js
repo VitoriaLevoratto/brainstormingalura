@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você é um cientista renomado em uma conferência internacional sobre mudanças climáticas. Após apresentar seus estudos sobre o aumento das temperaturas globais, você é abordado por jornalistas. Qual é a sua primeira declaração sobre os impactos do aquecimento global?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                texto: "Se continuarmos no ritmo atual, veremos um aumento catastrófico no nível do mar e eventos climáticos extremos.",
+                afirmacao: "Você alertou sobre os riscos catastróficos do aumento do nível do mar e eventos climáticos extremos."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Há ainda tempo para mitigar os efeitos do aquecimento global se adotarmos práticas sustentáveis agora.",
+                afirmacao: "Você mostrou otimismo ao defender que ainda há tempo para mitigar os efeitos do aquecimento global com práticas sustentáveis."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Durante a conferência, você é convidado a participar de um painel sobre energias renováveis. Qual proposta você apresenta para substituir os combustíveis fósseis?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Investir massivamente em energia solar e eólica, que são abundantes e sustentáveis.",
+                afirmacao: "Defendeu a importância do investimento em energia solar e eólica como alternativas sustentáveis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Desenvolver tecnologias avançadas para a captura e armazenamento de carbono junto com a transição para biocombustíveis.",
+                afirmacao: "Enfatizou o desenvolvimento de tecnologias de captura de carbono e biocombustíveis."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Em um fórum de discussão sobre impactos sociais das mudanças climáticas, você deve escolher um enfoque para sua apresentação. Qual aspecto social você destaca como o mais crítico?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "O deslocamento forçado de comunidades costeiras devido ao aumento do nível do mar.",
+                afirmacao: "Destacou a crise humanitária causada pelo deslocamento de comunidades costeiras."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "A insegurança alimentar resultante das mudanças nos padrões de cultivo agrícola.",
+                afirmacao: "Chamou atenção para a insegurança alimentar devido às mudanças nos padrões agrícolas."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Em uma sessão interativa com jovens ativistas ambientais, você é questionado sobre a melhor forma de envolver a juventude na luta contra o aquecimento global. Qual estratégia você sugere?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Educação ambiental nas escolas e programas de voluntariado para projetos de sustentabilidade.",
+                afirmacao: "Promoveu a educação ambiental e programas de voluntariado para envolver a juventude."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Utilização de mídias sociais e campanhas online para mobilizar e conscientizar os jovens.",
+                afirmacao: "Apostou no poder das mídias sociais e campanhas online para mobilizar os jovens."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Após a conferência, você recebe um convite para colaborar com um governo na elaboração de políticas climáticas. Qual é a sua principal recomendação?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Implementar políticas rigorosas de redução de emissões de gases de efeito estufa e promover a economia circular.",
+                afirmacao: "Recomendou políticas rigorosas de redução de emissões e promoção da economia circular."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Criar incentivos econômicos para empresas que adotem práticas sustentáveis e tecnologias verdes.",
+                afirmacao: "Sugeriu incentivos econômicos para empresas que adotem práticas sustentáveis."
             }
         ]
     }
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2050...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
