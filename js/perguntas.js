@@ -6,14 +6,14 @@ export const perguntas = [
                 texto: "Se continuarmos no ritmo atual, veremos um aumento catastrófico no nível do mar e eventos climáticos extremos.",
                 afirmacao: [
                     "Você alertou sobre os riscos catastróficos do aumento do nível do mar e eventos climáticos extremos.",
-                    ""
+                    "oo"
                 ]
             },
             {
                 texto: "Há ainda tempo para mitigar os efeitos do aquecimento global se adotarmos práticas sustentáveis agora.",
                 afirmacao: [
                     "Você mostrou otimismo ao defender que ainda há tempo para mitigar os efeitos do aquecimento global com práticas sustentáveis.",
-                    ""
+                    "oo"
                 ]
             }
         ]
@@ -25,14 +25,14 @@ export const perguntas = [
                 texto: "Investir massivamente em energia solar e eólica, que são abundantes e sustentáveis.",
                 afirmacao: [
                     "Defendeu a importância do investimento em energia solar e eólica como alternativas sustentáveis.",
-                    ""
+                    "oo"
                 ]
             },
             {
                 texto: "Desenvolver tecnologias avançadas para a captura e armazenamento de carbono junto com a transição para biocombustíveis.",
                 afirmacao: [
                     "Enfatizou o desenvolvimento de tecnologias de captura de carbono e biocombustíveis.",
-                    ""
+                    "oo"
                 ]
             }
         ]
@@ -44,14 +44,14 @@ export const perguntas = [
                 texto: "O deslocamento forçado de comunidades costeiras devido ao aumento do nível do mar.",
                 afirmacao: [
                     "Destacou a crise humanitária causada pelo deslocamento de comunidades costeiras.",
-                    ""
+                    "oo"
                 ]
             },
             {
                 texto: "A insegurança alimentar resultante das mudanças nos padrões de cultivo agrícola.",
                 afirmacao: [
                     "Chamou atenção para a insegurança alimentar devido às mudanças nos padrões agrícolas.",
-                    ""
+                    "oo"
                 ]
             }
         ]
@@ -63,14 +63,14 @@ export const perguntas = [
                 texto: "Educação ambiental nas escolas e programas de voluntariado para projetos de sustentabilidade.",
                 afirmacao: [
                     "Promoveu a educação ambiental e programas de voluntariado para envolver a juventude.",
-                    ""
+                    "oo"
                 ]
             },
             {
                 texto: "Utilização de mídias sociais e campanhas online para mobilizar e conscientizar os jovens.",
                 afirmacao: [
                     "Apostou no poder das mídias sociais e campanhas online para mobilizar os jovens.",
-                    ""
+                    "oo"
                 ]
             }
         ]
@@ -82,14 +82,14 @@ export const perguntas = [
                 texto: "Implementar políticas rigorosas de redução de emissões de gases de efeito estufa e promover a economia circular.",
                 afirmacao: [
                     "Recomendou políticas rigorosas de redução de emissões e promoção da economia circular.",
-                    ""
+                    "oo"
                 ]
             },
             {
                 texto: "Criar incentivos econômicos para empresas que adotem práticas sustentáveis e tecnologias verdes.",
                 afirmacao: [
                     "Sugeriu incentivos econômicos para empresas que adotem práticas sustentáveis.",
-                    ""
+                    "oo"
                 ]
             }
         ]

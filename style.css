@@ -39,6 +39,10 @@ h1{
     font-family: var(--poppins);
 }
 
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: var(--poppins);=====
+}
+
 .caixa-perguntas {
     margin-bottom: 20px;
 }
@@ -69,4 +73,18 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado{
+    display: none;
+}
+
+.caixa-resultado.mostrar{
+    display: block;
 }
