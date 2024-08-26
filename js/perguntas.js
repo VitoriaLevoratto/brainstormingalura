@@ -1,18 +1,18 @@
 export const perguntas = [
     {
-        enunciado: "Você é um cientista renomado em uma conferência internacional sobre mudanças climáticas. Após apresentar seus estudos sobre o aumento das temperaturas globais, você é abordado por jornalistas. Qual é a sua primeira declaração sobre os impactos do aquecimento global?",
+        enunciado: "você é um cientista renomado em uma conferência internacional sobre mudanças climáticas. Após apresentar seus estudos sobre o aumento das temperaturas globais, você é abordado por jornalistas. Qual é a sua primeira declaração sobre os impactos do aquecimento global?",
         alternativas: [
             {
                 texto: "Se continuarmos no ritmo atual, veremos um aumento catastrófico no nível do mar e eventos climáticos extremos.",
                 afirmacao: [
-                    "Você alertou sobre os riscos catastróficos do aumento do nível do mar e eventos climáticos extremos.",
+                    "você alertou sobre os riscos catastróficos do aumento do nível do mar e eventos climáticos extremos.",
                     "oo"
                 ]
             },
             {
                 texto: "Há ainda tempo para mitigar os efeitos do aquecimento global se adotarmos práticas sustentáveis agora.",
                 afirmacao: [
-                    "Você mostrou otimismo ao defender que ainda há tempo para mitigar os efeitos do aquecimento global com práticas sustentáveis.",
+                    "você mostrou otimismo ao defender que ainda há tempo para mitigar os efeitos do aquecimento global com práticas sustentáveis.",
                     "oo"
                 ]
             }
